@@ -22,7 +22,7 @@ The two primary problems seem to be:
 
 Solution: Multiagent Systems Explorer, a program for systematic search of more intelligent multiagents: so that anyone can explore the combinatorial space; store results; and share them.
 
-![(example2)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1718047689846.png](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913477230.png)
+![(example2)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913477230.png)
 
 
 2) That a timing scheme is required to synchronize the multiagent system as whole. Essentially a messaging or time-sharing problem. Possibly solved.
@@ -33,4 +33,4 @@ Solution: Publish this and let others to invent the best timing schemes
 
 ---
 
-This was originally scheduled to be published in 2021. My monero address is: 49juVze4wpvCyrS91EabyAHQTL232pUsW2whQtNqzpHobLHwtWyWQswF7qD4xSe2jxPL1Uk1EKzwvZo8W3gnxomsD23NPqu
+This was originally scheduled to be published in 2021. My monero address is: 49juVze4wpvCyrS91EabyAHQTL232pUsW2whQtNqzpHobLHwtWyWQswF7qD4xSe2jxPL1Uk1EKzwvZo8W3gnxomsD23NPqu. All copyrights reserved (for the time being).
