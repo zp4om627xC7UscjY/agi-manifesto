@@ -12,6 +12,8 @@ Also, we could allow the agents to modify their own configurations over other ag
 
 I claim that it is possible build an artifical general intelligence with this.
 
+![(also the number of agents must get higher, guessing 5000 with 60% certainty, but 95% certainty that higher than in this example)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1718047689846.png)
+
 ---
 
 The two primary problems seem to be:
@@ -20,9 +22,14 @@ The two primary problems seem to be:
 
 Solution: Multiagent Systems Explorer, a program for systematic search of more intelligent multiagents: so that anyone can explore the combinatorial space; store results; and share them.
 
+![(example2)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1718047689846.png](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913477230.png)
+
+
 2) That a timing scheme is required to synchronize the multiagent system as whole. Essentially a messaging or time-sharing problem. Possibly solved.
 
 Solution: Publish this and let others to invent the best timing schemes
+
+![(example3)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913492748.png)
 
 ---
 
