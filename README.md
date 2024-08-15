@@ -35,6 +35,14 @@ Solution: Publish this and let others to invent the best timing schemes
 
 Remark (agency, 2024): The best implementation technically for the multiagents explorer system would be a program that gives each agent a restricted shell / terminal emu access, the internal interface being in commands. This way, the multiagents will be able to gain almost the same level of agency as any normal Debian user, except for the fact that Vim and Gimp were not designed for users who can only use the terminal emulator from the line.
 
+IE, one restricted "terminal", with customizable packages, one for each agent (node that is!). Some use same ones, some use different. Others have internet, others dont. For granting multiagents agency, this is the way.
+
 ---
 
 This was originally scheduled to be published in 2021. My monero address is: 49juVze4wpvCyrS91EabyAHQTL232pUsW2whQtNqzpHobLHwtWyWQswF7qD4xSe2jxPL1Uk1EKzwvZo8W3gnxomsD23NPqu. All copyrights reserved (for the time being).
+
+---
+
+2024-08-15 I am thoroughly convinced that humans will get to the exact same end results, the design—as I depicted here far before them. But they will do sk by making MANY! small steps instead of directly adapting the fact that directed graphs are the best representation for LLM-multiagents, which have capacity to already be essentially AGI.
+
+The problem – your problem – remains lack of ability to use LLMs. First you will make small steps eventually realizing the scheme depicted here. Then you will realize the scale of this problem and hope you had implemented the Multiagents Explorer earlier.
