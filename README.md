@@ -39,6 +39,33 @@ IE, one restricted "terminal", with customizable packages, one for each agent (n
 
 ---
 
+I shall offer you $15 for "understanding" such that I have draft (text) that others understand. No one seems to be able to make sense of me, but this is valuable work, if I am not a crank.
+
+---
+
+ID EST
+
+One agent consists of:
+0. Initial prompt
+1. LLM-settings (EG which LLM, which model parameters).
+2. Virtual terminal emulator that takes the input of the LLM
+3. TE-settings (EG installed linux packages, hsrdware access, online credientials)
+
+One agent has internal process of:
+1. The initial prompt getting run on the LLM
+2. TE commands of the agent causing things.
+
+A multiagent means this very same idea, except the agent has in the TE commands that affect other agents. I will give four examples:
+- "/msg [agent-name] [prompt]" would send a message to the other agent with that name; the other agent would then evaluate that message as a prompt.
+- "/allow-msg [agent-name-0] [agent-name-1]" would allow agent called [agent-name-0] to message [agent-name-1]
+- "/add-agent [name] [llm-settings] [initial prompt]" would create an agent with these settings.
+
+Agents know about all the commands, their use, and available settings because of the prompts. There could be a system that automatically generates relevant prompts for this basic control information. The prompts that occur when the agents work could be separate, added on top of the control prompts (IE how many Chatbots add their rules).
+
+Multiagents Explorer will be a tool that allows every human to edit, use & share multiagents fast.
+
+---
+
 This was originally scheduled to be published in 2021. My monero address is: 49juVze4wpvCyrS91EabyAHQTL232pUsW2whQtNqzpHobLHwtWyWQswF7qD4xSe2jxPL1Uk1EKzwvZo8W3gnxomsD23NPqu. All copyrights reserved (for the time being).
 
 ---
