@@ -1,64 +1,25 @@
 First they invented a car. Then they decided that the only way to use the car was driving backwards and forwards the same single road. The engine of this car is called the transformer model architecture, and the car itself is referred to as large language model. Marvin Minsky would probably have asked: But what about road networks?
 
-In the quest for higher intelligence, we could call network nodes in a directed graph as a "multiagent" and each of the nodes an "agent."
+In the quest for higher intelligence, we could call network nodes in a directed graph as a "multiagent" and each of the nodes an "agent." We could then suppose that this network evolves, somehow, autonomously over "time" and that we may only define the initial configuration; self-modification has power.
 
-Also, we could suppose that this network evolves, somehow, autonomously over "time" and that we may only define the initial configuration; self-modification has power.
+We then define that each node shall be a single LLM instance with its own configuration: more precisely, that of (0) initial prompt (1) LLM-settings, EG the specification, means of accessing & parameters of the model (2) virtual terminal emulator that takes the input of the LLM (3) TE-settings (EG installed linux packages, hardware access, online credientials).
 
-Also, we could define that each node shall be a single LLM instances with its own configuration.
+Now — the invididual agent has an internal process of: (0) the initial prompt getting run on the LLM (1) TE commands of the agent causing things. A multiagent has an internal process of: agents doing what they would alone — but also using commands such as
+- "/msg [agent-name] [prompt]" would send a message to the other agent with that name; the other agent would then evaluate that message as a prompt.
+- "/allow-msg [agent-name-0] [agent-name-1]" would allow agent called [agent-name-0] to message [agent-name-1]
+- "/add-agent [name] [llm-settings] [initial prompt]" would create an agent with these settings.
 
-Also, we can give each node that have interesting initial configuration in the form of model of choice and temprature, prompt and programming interfaces it can acces.
-
-Also, we could allow the agents to modify their own configurations over other agents and represent these connections with the arrows of the directes graph.
+We provide the information for the agents about every commands & rule via a static & automatically-generated system prompt based on these.
 
 I claim that it is possible build an artifical general intelligence with this.
 
 ![(also the number of agents must get higher, guessing 5000 with 60% certainty, but 95% certainty that higher than in this example)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1718047689846.png)
 
----
-
-The two primary problems seem to be:
-
-1) That the amount of different possible combinations of directed graphs grows faster than exponentially as the number of nodes increases.
-
-Solution: Multiagent Systems Explorer, a program for systematic search of more intelligent multiagents: so that anyone can explore the combinatorial space; store results; and share them.
+Yet the amount of different possible different multiagent configurations grows faster than exponentially as the number of agents increases. One could say that even with every second & every computer in the universe, we would still not be able to try all agents with more than few hundred nodes. Consequently, we need the Multiagent Systems Explorer—an accessible submarine for systematic search of more and more intelligent multiagents from the bottoms of this "combinatorial ocean."
 
 ![(example2)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913477230.png)
 
-
-2) That a timing scheme is required to synchronize the multiagent system as whole. Essentially a messaging or time-sharing problem. Possibly solved.
-
-Solution: Publish this and let others to invent the best timing schemes
-
 ![(example3)](https://github.com/zp4om627xC7UscjY/agi-manifesto/blob/main/sketch-1717913492748.png)
-
----
-
-Remark (agency, 2024): The best implementation technically for the multiagents explorer system would be a program that gives each agent a restricted shell / terminal emu access, the internal interface being in commands. This way, the multiagents will be able to gain almost the same level of agency as any normal Debian user, except for the fact that Vim and Gimp were not designed for users who can only use the terminal emulator from the line.
-
-IE, one restricted "terminal", with customizable packages, one for each agent (node that is!). Some use same ones, some use different. Others have internet, others dont. For granting multiagents agency, this is the way.
-
----
-
-ID EST
-
-One agent consists of:
-0. Initial prompt
-1. LLM-settings (EG which LLM, which model parameters).
-2. Virtual terminal emulator that takes the input of the LLM
-3. TE-settings (EG installed linux packages, hsrdware access, online credientials)
-
-One agent has internal process of:
-1. The initial prompt getting run on the LLM
-2. TE commands of the agent causing things.
-
-A multiagent means this very same idea, except the agent has in the TE commands that affect other agents. I will give four examples:
-- "/msg [agent-name] [prompt]" would send a message to the other agent with that name; the other agent would then evaluate that message as a prompt.
-- "/allow-msg [agent-name-0] [agent-name-1]" would allow agent called [agent-name-0] to message [agent-name-1]
-- "/add-agent [name] [llm-settings] [initial prompt]" would create an agent with these settings.
-
-Agents know about all the commands, their use, and available settings because of the prompts. There could be a system that automatically generates relevant prompts for this basic control information. The prompts that occur when the agents work could be separate, added on top of the control prompts (IE how many Chatbots add their rules).
-
-Multiagents Explorer will be a tool that allows every human to edit, use & share multiagents fast.
 
 ---
 
@@ -68,4 +29,4 @@ This was originally scheduled to be published in 2021. My monero address is: 49j
 
 2024-08-15 I am thoroughly convinced that humans will get to the exact same end results, the design—as I depicted here far before them. But they will do sk by making MANY! small steps instead of directly adapting the fact that directed graphs are the best representation for LLM-multiagents, which have capacity to already be essentially AGI.
 
-The problem – your problem – remains lack of ability to use LLMs. First you will make small steps eventually realizing the scheme depicted here. Then you will realize the scale of this problem and hope you had implemented the Multiagents Explorer earlier.
+The problem – your problem – remains lack of ability to use LLMs. First you will make small steps eventually realizing the scheme depicted here. Then you will realize the scale of this problem and hope you had implemented the Multiagent Systems Explorer earlier.
