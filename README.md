@@ -39,10 +39,6 @@ IE, one restricted "terminal", with customizable packages, one for each agent (n
 
 ---
 
-I shall offer you $15 for "understanding" such that I have draft (text) that others understand. No one seems to be able to make sense of me, but this is valuable work, if I am not a crank.
-
----
-
 ID EST
 
 One agent consists of:
