@@ -30,3 +30,7 @@ This was originally scheduled to be published in 2021. My monero address is: 49j
 2024-08-15 I am thoroughly convinced that humans will get to the exact same end results, the design—as I depicted here far before them. But they will do sk by making MANY! small steps instead of directly adapting the fact that directed graphs are the best representation for LLM-multiagents, which have capacity to already be essentially AGI.
 
 The problem – your problem – remains lack of ability to use LLMs. First you will make small steps eventually realizing the scheme depicted here. Then you will realize the scale of this problem and hope you had implemented the Multiagent Systems Explorer earlier.
+
+2024-08-17: I have seen lots of talk about invididual "agents" this year. The analogue to that discussion would be buzz about servers without having an internet—surely the components can be fun, but you are missing out if you do not understand the system makes only really sense as an interconnected whole.
+
+Mechanically, chatbots are primitive technology because the work is half for the human. These "agents" often simply act as preconfigured chatbots, at best weakly connected to each other without real underlying systems. Compare to LLM-multiagents, where the human only configures the initial configuration, after which the AI system works autonomously—to a degree determined by the quality of the initial configuration.
