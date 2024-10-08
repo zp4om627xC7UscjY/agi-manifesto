@@ -184,17 +184,9 @@ Agents can alter:
 
 Some agents can:
 
-- **Create other agents**: Instantiate new agents using `/add-agent`.
-- **Modify permissions**: Use `/allow-msg` to grant messaging permissions.
-- **Send messages**: Communicate with permitted agents using `/msg`.
-
-### Combinatorial explosion
-
-The number of different possible multiagent configurations grows faster than exponentially as the number of agents increases. As the number of agents \( n \) increases, the number of possible configurations grows rapidly due to:
-
-- **Agent configurations**: Each agent has numerous possible settings.
-- **Communication paths**: Potentially \( n(n - 1) \) directed edges in the graph.
-- **Permissions**: Various combinations of allowed communications.
+- **Create other agents**: Create new agents with `/add-agent`.
+- **Modify permissions**: Use `/allow-msg` to create new messaging edges.
+- **Send messages**: Communicate & "see" agents with `/msg`.
 
 ---
 
