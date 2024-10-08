@@ -8,10 +8,10 @@ In the quest for higher intelligence, we could consider network nodes in a direc
 
 We then define that each node shall be a single LLM instance with its own configuration: more precisely, that of:
 
-1. **Initial Prompt**: The starting prompt for the LLM.
-2. **LLM Settings**: The specification, means of accessing, and parameters of the model.
-3. **Virtual Terminal Emulator (TE)**: A terminal emulator that takes the input of the LLM.
-4. **TE Settings**: Installed Linux packages, hardware access, online credentials, etc.
+1. **Initial prompt**: The starting prompt for the LLM.
+2. **LLM settings**: The specification, means of accessing, and parameters of the model.
+3. **Virtual terminal emulator (TE)**: A terminal emulator that takes the input of the LLM.
+4. **TE settings**: Installed Linux packages, hardware access, online credentials, etc.
 
 Now, the individual agent has an internal process of:
 
@@ -195,12 +195,6 @@ The number of different possible multiagent configurations grows faster than exp
 - **Agent configurations**: Each agent has numerous possible settings.
 - **Communication paths**: Potentially \( n(n - 1) \) directed edges in the graph.
 - **Permissions**: Various combinations of allowed communications.
-
-One could say that even with every second and every computer in the universe, we would still not be able to try all agents with more than a few hundred nodes.
-
-### Multiagent Systems Explorer
-
-Consequently, we need the **Multiagent Systems Explorer** — an accessible submarine for systematic search of more and more intelligent multiagents from the bottoms of this "combinatorial ocean."
 
 ---
 
